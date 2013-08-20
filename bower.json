@@ -2,6 +2,10 @@
   "name": "click-through",
   "version": "0.1.0",
   "main": "click-through.js",
+  "author":{ "name" : "John Leonard"
+	, "email" : "thejohnleonard@gmail.com"
+	, "url" : "https://github.com/jleonard"
+}
   "ignore": [
     "**/.*",
     "node_modules",

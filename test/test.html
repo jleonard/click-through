@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 ie-7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 ie-8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js ie-9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <style>
+      html,body{
+        width: 100%;
+        height: 100%;
+      }
+      body{
+        margin: 0px;
+      }
+    	.clickthrough{
+    		width: 100%;
+        height: 100%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    	}
+    </style>
+    </head>
+    <body>
+      <div class='clickthrough'></div>
+      <script src="http://code.jquery.com/jquery.min.js"></script>
+      <script src="../src/click-through.js"></script>
+
+      <script>
+      $(function(){
+      	$(".clickthrough").clickthrough(
+      		{	loop:true,
+      			images:['coy.jpg','grumps.jpg','hair.jpg','pensive.jpg','yawn.jpg'],
+      			callback: function(item,index){ console.log("ClickThrough clicked ",item,index)}
+      		}
+      	);
+      });	
+     </script>
+     
+  </body>
+</html>
