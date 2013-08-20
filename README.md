@@ -11,7 +11,7 @@ $(".selector").clickthrough(
 );
 ```
 
-######Looping the click through
+######Looping the images
 ```javascript
 $(".selector").clickthrough(
 	{	
