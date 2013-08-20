@@ -1,0 +1,10 @@
+{
+  "name": "click-through",
+  "version": "0.1.0",
+  "main": "click-through.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
